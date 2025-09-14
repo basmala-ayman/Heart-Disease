@@ -14,11 +14,11 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
 ---
 
 ## 📑 Table of Contents
-- [Project Objectives](#🎯-project-objectives)  
-- [Dataset](#️🗂️-dataset)
-- [Tools & Libraries](#️🛠️-tools--libraries)  
-- [Project Structure](#📂-project-structure)  
-- [How to Run](#🚀-how-to-run)  
+- [Project Objectives](#project-objectives)  
+- [Dataset](#dataset)
+- [Tools & Libraries](#tools--libraries)
+- [Project Structure](#project-structure)  
+- [How to Run](#how-to-run)
   - [Clone the Repository](#clone-the-repository)  
   - [Create the Virtual Environment](#create-the-virtual-environment)  
   - [Activate the Virtual Environment](#activate-the-virtual-environment)  
@@ -26,13 +26,11 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
   - [Run Jupyter Notebooks](#run-jupyter-notebooks)  
   - [Run the Streamlit Web App](#run-the-streamlit-web-app)  
   - [Deploy using Ngrok](#deploy-using-ngrok)  
-- [Pipeline Workflow](#📊-pipeline-workflow)  
-- [Results & Deliverables](#📈-results--deliverables)  
-- [Future Improvements](#🌟-future-improvements)   
-
+- [Pipeline Workflow](#pipeline-workflow)  
+- [Results & Deliverables](#results--deliverables)
 ---
 
-## 🎯 Project Objectives  
+## Project Objectives  
 - Perform **Data Cleaning & Preprocessing** (missing values, encoding, scaling).  
 - Apply **Dimensionality Reduction** using PCA.  
 - Implement **Feature Selection** using Random Forest, RFE, Chi-Square.
@@ -49,13 +47,13 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 - **Name:** [Heart Disease UCI Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease)  
 - **Description:** Predict the presence or absence of heart disease based on clinical parameters.  
 
 ---
 
-## 🛠️ Tools & Libraries  
+## Tools & Libraries  
 - **Python** – Main programming language  
 - **Pandas, NumPy** – Data Handling  
 - **Matplotlib, Seaborn** – Visualization  
@@ -65,7 +63,7 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 Heart_Disease_Project/
 │── data/
@@ -93,7 +91,7 @@ Heart_Disease_Project/
 
 ---
 
-## 🚀 How to Run  
+## How to Run  
 
 ### Clone the Repository
 ```
@@ -136,7 +134,7 @@ Read instructions in `deployment/ngrok_setup.txt`.
 
 ---
 
-## 📊 Pipeline Workflow  
+## Pipeline Workflow  
 1. **Data Preprocessing & Cleaning** – Handle missing values, encoding, scaling  
 2. **PCA Analysis** – Dimensionality Reduction  
 3. **Feature Selection** – Random Forest, RFE, Chi-Square
@@ -148,7 +146,7 @@ Read instructions in `deployment/ngrok_setup.txt`.
 
 ---
 
-## 📈 Results & Deliverables  
+## Results & Deliverables  
 - Cleaned Dataset  
 - PCA & Feature Selection Results  
 - Trained Models with Evaluation Metrics  
