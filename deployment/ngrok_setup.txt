@@ -1,1 +1,56 @@
-Ngrok_URL = "https://22b6e41df746.ngrok-free.app"
+Ngrok Deployment Setup for Streamlit App
+----------------------------------------
+
+Follow these steps to deploy the Streamlit app using Ngrok and share it with others:
+
+1. Install Ngrok
+----------------
+For macOS:
+    brew install ngrok
+
+For Linux:
+    curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
+        | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
+        && echo "deb https://ngrok-agent.s3.amazonaws.com bookworm main" \
+        | sudo tee /etc/apt/sources.list.d/ngrok.list \
+        && sudo apt update \
+        && sudo apt install ngrok
+
+For Windows:
+    Download the Ngrok executable from https://ngrok.com/download and extract it.
+
+2. Create a Free Ngrok Account
+-------------------------------
+- Go to https://ngrok.com and sign up.
+- After signing in, go to Dashboard → Your Authtoken to get your auth token.
+
+3. Add Your Auth Token
+-----------------------
+Open a terminal or bash and replace YOUR_AUTHTOKEN with the token from the dashboard:
+    ngrok config add-authtoken YOUR_AUTHTOKEN
+
+4. Run the Streamlit App Locally
+--------------------------------
+Make sure you’re inside the project directory and run:
+    streamlit run ui/app.py
+This will start the app at http://localhost:8501.
+
+5. Start Ngrok Tunnel
+----------------------
+Open a new terminal window and run:
+    ngrok http 8501
+
+6. Access the Public URL
+-------------------------
+Ngrok will generate a public URL like:
+    Forwarding    https://abcd-1234.ngrok.io -> http://localhost:8501
+Share the https:// link with others for live access.
+
+7. Stop Ngrok
+--------------
+Press Ctrl + C in the terminal where Ngrok is running to stop the tunnel.
+
+Extra Tips
+--------------
+- Use: ngrok http 8501 --region=eu     (for a specific region)
+- Use: ngrok http 8501 --hostname=yourname.ngrok.io   (for a custom domain)
