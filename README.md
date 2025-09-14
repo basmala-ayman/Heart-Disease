@@ -8,12 +8,12 @@
 
 ---
 
-## 📌 Project Overview  
+## Project Overview  
 This project provides a complete **Machine Learning pipeline** for analyzing, predicting, and visualizing heart disease risks using the **UCI Heart Disease dataset**. It covers data preprocessing, dimensionality reduction (PCA), supervised & unsupervised models, hyperparameter tuning, and optional web deployment using Streamlit & Ngrok. 
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Project Objectives](#project-objectives)  
 - [Dataset](#dataset)
 - [Tools & Libraries](#tools--libraries)
