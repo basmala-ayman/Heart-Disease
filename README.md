@@ -54,13 +54,15 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
 ---
 
 ## Tools & Libraries  
-- **Python** – Main programming language  
-- **Pandas, NumPy** – Data Handling  
-- **Matplotlib, Seaborn** – Visualization  
-- **Scikit-learn** – Machine Learning Models & PCA  
-- **Streamlit** – Interactive Web App 
-- **Ngrok** – Public URL for Deployment 
-
+- **Language:** `python`
+- **Libraries:**
+  - `pandas`, `numpy` – Data Handling  
+  - `matplotlib `, `Seaborn` – Visualization  
+  - `sklearn` – Machine Learning Models & PCA
+  - `joblib` - Save Model as .plk
+  - `streamlit` – Interactive Web App 
+  - `ngrok` – Public URL for Deployment
+    
 ---
 
 ## Project Structure
