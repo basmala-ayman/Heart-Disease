@@ -13,8 +13,7 @@ This project provides a complete **Machine Learning pipeline** for analyzing, pr
 
 ---
 
-## 📑 Table of Contents  
-- [Project Overview](#📌-project-overview)  
+## 📑 Table of Contents
 - [Project Objectives](#🎯-project-objectives)  
 - [Dataset](#️🗂️-dataset)
 - [Tools & Libraries](#️🛠️-tools--libraries)  
